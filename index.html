@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mandi L.</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
     <!-- ///Header/// -->
@@ -14,11 +15,11 @@
         >
         <nav class="nav-site">
           <ul class="nav-links">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -40,7 +41,7 @@
             remotely internationally with a strong eye for quality and user
             experience.
           </p>
-          <a href="#projects" class="view-my-work-btn">View My Work</a>
+          <a href="#projects" class="welcome-btn">Welcome!</a>
         </div>
       </section>
 
@@ -54,7 +55,9 @@
             </h2>
           </div>
           <div class="about-grid">
-            <div><img src="imgs/Mandi L.png" alt="" width="120px" /></div>
+            <div class="about-img">
+              <img src="imgs/Mandi L.png" alt="" width="120px" />
+            </div>
             <div class="about-info">
               <p>
                 Junior Frontend Web Developer with a strong foundation in
@@ -77,36 +80,84 @@
           <div class="glass-card-grid">
             <!-- Card One -->
             <div class="glass-cards">
-              <div class="glass-card-info">
-                <h3>Remote First</h3>
-                <p>
-                  2 years thriving in distributed teams across US & EU time
-                  zones.
-                </p>
-              </div>
+              <i data-lucide="briefcase"></i>
+              <h3>Remote First</h3>
+              <p>
+                2 years thriving in distributed teams across US & EU time zones.
+              </p>
             </div>
             <!-- Card Two -->
             <div class="glass-cards">
-              <div class="glass-card-info">
-                <h3>Clear Communicator</h3>
-                <p>
-                  Background in teaching and support sharpened my ability to
-                  explain technical concepts.
-                </p>
-              </div>
+              <i data-lucide="users"></i>
+              <h3>Clear Communicator</h3>
+              <p>
+                Background in teaching and support sharpened my ability to
+                explain technical concepts.
+              </p>
             </div>
             <!-- Card Three -->
             <div class="glass-cards">
-              <div class="glass-card-info">
-                <h3>Quality Driven</h3>
-                <p>
-                  Strong eye for QA, detail-oriented approach to every project.
-                </p>
-              </div>
+              <i data-lucide="globe"></i>
+              <h3>Quality Driven</h3>
+              <p>
+                Strong eye for QA, detail-oriented approach to every project.
+              </p>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="projects-content">
+          <div class="projects-title-text">
+            <p class="blue-headings">Projects</p>
+            <h2 class="section-headings">
+              Selected Work <span class="blue-full-stops">.</span>
+            </h2>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+
+            <div class="project-card">
+              <div class="project-card-img">
+                <img
+                  src="imgs/Client Work.png"
+                  alt="Client Work screenshot"
+                  width="500px"
+                />
+              </div>
+              <div class="project-card-info">
+                <h3>Amanda's Beauty Bar Salon</h3>
+                <p class="project-card-subtitle">
+                  AI-Powered CV & Cover Letter Generator
+                </p>
+                <p class="project-card-description">
+                  AI-Powered web app that helps users generate CVs and cover
+                  letters through a chat-style interface. Built the full
+                  frontend including UI components and API integration.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>API</span>
+                  <span>AI</span>
+                </div>
+                <a href="projects/client-website.html" class="view-project-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <!-- Project Card 2  -->
+          </div>
+        </div>
+      </section>
     </main>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
