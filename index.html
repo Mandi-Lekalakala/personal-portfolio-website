@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mandi L.</title>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- ///Header/// -->
@@ -180,38 +184,38 @@
                   >View Project</a
                 >
               </div>
+            </div>
 
-              <!-- Project Card 3 -->
+            <!-- Project Card 3 -->
 
-              <div class="project-card">
-                <div class="project-card-img">
-                  <img
-                    src="imgs/Skycast.png"
-                    alt="SKycast screenshot"
-                    width="500px"
-                  />
+            <div class="project-card">
+              <div class="project-card-img">
+                <img
+                  src="imgs/Skycast.png"
+                  alt="SKycast screenshot"
+                  width="500px"
+                />
+              </div>
+              <div class="project-card-info">
+                <h3>Skycast</h3>
+                <p class="project-card-subtitle">
+                  Real time functional weather web app.
+                </p>
+                <p class="project-card-description">
+                  Real-time weather app built with vanilla JavaScript that
+                  fetches live API data to display temperature, forecasts,
+                  humidity, and wind speed.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>API</span>
+                  <span>AI</span>
                 </div>
-                <div class="project-card-info">
-                  <h3>Skycast</h3>
-                  <p class="project-card-subtitle">
-                    Real time functional weather web app.
-                  </p>
-                  <p class="project-card-description">
-                    Real-time weather app built with vanilla JavaScript that
-                    fetches live API data to display temperature, forecasts,
-                    humidity, and wind speed.
-                  </p>
-                  <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>API</span>
-                    <span>AI</span>
-                  </div>
-                  <a href="projects/skycast.html" class="view-project-btn"
-                    >View Project</a
-                  >
-                </div>
+                <a href="projects/skycast.html" class="view-project-btn"
+                  >View Project</a
+                >
               </div>
             </div>
           </div>
@@ -236,8 +240,8 @@
               <div class="skill-tags">
                 <span>HTML</span>
                 <span>CSS</span>
-                <span>JavaScript (ES6+)</span>
-                <span>React / React.js</span>
+                <span>JavaScript(ES6+)</span>
+                <span>React/React.js</span>
                 <span>Bootstrap</span>
                 <span>Responsive Design</span>
                 <span>SEO</span>
@@ -264,21 +268,21 @@
               <div class="skill-tags">
                 <span>Git</span>
                 <span>GitHub</span>
-                <span>VS Code</span>
+                <span>VSCode</span>
                 <span>Chrome DevTools</span>
                 <span>API Integration</span>
                 <span>Hosting</span>
                 <span>AI</span>
-                <span>SLack</span>
+                <span>Slack</span>
               </div>
             </div>
 
-            <!-- Card 5: Soft Skills -->
+            <!-- Card 4: Soft Skills -->
             <div class="skill-card">
               <h3>Soft Skills</h3>
               <div class="skill-tags">
                 <span>Communication</span>
-                <span>Problem Solving</span>
+                <span>Problem-Solving</span>
                 <span>Teamwork & Collaboration</span>
                 <span>Attention to Detail</span>
                 <span>Adaptability</span>
@@ -295,29 +299,103 @@
         <div class="contact-content">
           <div class="contact-title-text">
             <p class="blue-headings">Contact</p>
-            <h2 class="section-headings">Let's Connect!</h2>
+            <h2 class="section-headings">
+              Let's Connect<span class="blue-full-stops">.</span>
+            </h2>
             <p class="contact-intro">
               Let's build something great together - feel free to reach out!
             </p>
           </div>
 
           <div class="contact-grid">
+            <!-- Left: Contact Info -->
             <div class="contact-info">
               <!-- Email -->
               <div class="contact-item">
                 <div class="contact-icon">
-                  <i data-lucide="mail"></i>
+                  <i class="fa-regular fa-envelope"></i>
                 </div>
                 <div class="contact-item-text">
                   <p class="contact-label">Email</p>
-                  <p>mandilekalakala@gmail.com</p>
+                  <a href="mailto:mandilekalakala@gmail.com"
+                    >mandilekalakala@gmail.com</a
+                  >
                 </div>
               </div>
+              <!-- linkedin -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="contact-item-text">
+                  <p class="contact-label">LinkedIn</p>
+                  <a
+                    href="https://www.linkedin.com/in/mandilekalakala"
+                    target="_blank"
+                    >linkedin.com/in/mandilekalakala</a
+                  >
+                </div>
+              </div>
+              <!-- GitHub -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="contact-item-text">
+                  <p class="contact-label">GitHub</p>
+                  <a href="https://github.com/Mandi-Lekalakala" target="_blank"
+                    >github.com/Mandi-Lekalakala</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Contact Form -->
+
+            <div class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message..."></textarea>
+              </div>
+
+              <button class="send-btn">
+                <i data-lucide="send"></i>
+                Send Message
+              </button>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Left: Copyright -->
+        <p>© 2026 Mandi Lekalakala. All rights reserved.</p>
+
+        <!-- Right: Social Icons -->
+        <div class="footer-icons">
+          <a href="mailto:mandilekalakala@gmail.com">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mandilekalakala" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Mandi-Lekalakala" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
     <script>
       lucide.createIcons();
     </script>
