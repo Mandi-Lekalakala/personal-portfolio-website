@@ -37,7 +37,7 @@ ul {
   font-size: 36px;
   font-weight: 700;
   color: #111111;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* ====================
@@ -56,6 +56,12 @@ ul {
     background 0.4s ease,
     padding 0.4s ease,
     box-shadow 0.4s ease;
+}
+
+.header-section.scrolled {
+  background: #f0f0f0;
+  padding: 14px 0;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -135,6 +141,13 @@ HERO SECTION
   max-width: 750px;
   line-height: 25px;
   margin-top: 8px;
+}
+
+.welcome-btn svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  vertical-align: middle;
 }
 
 .welcome-btn {
@@ -408,4 +421,184 @@ SKILLS SECTION
   background: #deeff7;
   padding: 8px 16px;
   border-radius: 20px;
+}
+
+/* ===================
+CONTACT SECTION 
+=================== */
+
+.contact-section {
+  background: #ffffff;
+  padding: 80px 120px;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  font-size: 20px;
+  color: #737383;
+  margin-bottom: 50px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* Left: Contact Info */
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-icon {
+  width: 52px;
+  height: 52px;
+  background: #deeff7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon i {
+  font-size: 20px;
+  color: #2a8fc4;
+}
+
+.contact-label {
+  font-size: 16px;
+  color: #737383;
+  margin-bottom: 4px;
+}
+
+.contact-item-text a {
+  color: #111111;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.contact-item-text a:hover {
+  color: #2a8fc4;
+}
+
+/* Right: Contact Form */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group label {
+  font-size: 15px;
+  color: #131314;
+  margin-bottom: 50px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  color: #111111;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2a8fc4;
+}
+
+.form-group textarea {
+  height: 140px;
+  resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.send-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #2a8fc4;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.send-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.send-btn:hover {
+  background: #145f87;
+  transform: translateY(-5px);
+}
+
+/* ==============
+FOOTER
+================ */
+
+.footer {
+  background: #141414;
+  padding: 30px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons i {
+  font-size: 18px;
+  color: #bfbfbf;
+  transition: color 0.3s ease;
+}
+
+.footer-icons i:hover {
+  color: #2a8fc4;
 }
