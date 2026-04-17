@@ -303,12 +303,12 @@ PROJECTS SECTION
 
 .project-card-img img {
   width: 100%;
-  height: 270px;
+  height: 250px;
   display: block;
 }
 
 .project-card-info {
-  padding: 28px;
+  padding: 26px;
 }
 
 .project-card-info h3 {
@@ -324,21 +324,21 @@ PROJECTS SECTION
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #2a8fc4;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .project-card-description {
   font-size: 15px;
   color: #737383;
   line-height: 20px;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 .project-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .project-tags span {
@@ -499,13 +499,12 @@ CONTACT SECTION
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .form-group label {
   font-size: 15px;
   color: #131314;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .form-group input,
