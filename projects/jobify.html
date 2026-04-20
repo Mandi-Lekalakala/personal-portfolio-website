@@ -3,7 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jobify.</title>
+    <title>Jobify — Mandi L.</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../src/styles.css" />
+    <link rel="stylesheet" href="../src/projects.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER -->
+    <header class="header-section">
+      <div class="header-content">
+        <a href="../index.html" class="brand-name"
+          >ML<span class="blue-full-stops">.</span></a
+        >
+        <nav class="nav-site">
+          <ul class="nav-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="project-hero">
+      <div class="project-hero-content">
+        <a href="../index.html#projects" class="back-link">
+          <i data-lucide="arrow-left"></i> Back to Projects
+        </a>
+        <h1 class="project-title">Jobify</h1>
+        <p class="project-subtitle">AI-POWERED CV & COVER LETTER GENERATOR</p>
+      </div>
+    </section>
+
+    <!-- PROJECT CONTENT -->
+    <section class="project-content-section">
+      <div class="project-content">
+        <!-- Tags -->
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>API</span>
+          <span>AI</span>
+          <span>UI/UX</span>
+          <span>Prompt Engineering</span>
+          <span>Git/GitHub</span>
+        </div>
+
+        <!-- The Problem -->
+        <div class="project-block">
+          <h2>The Problem<span class="blue-full-stops">.</span></h2>
+          <p>
+            Job seekers often spend hours tailoring CVs and cover letters for
+            each application, struggling with formatting, tone, and content — a
+            repetitive process that slows down the job search significantly.
+          </p>
+        </div>
+
+        <!-- The Process -->
+        <div class="project-block">
+          <h2>The Process<span class="blue-full-stops">.</span></h2>
+          <p>
+            I built the full frontend structure, UI components, and interactive
+            logic for this AI-powered mini SaaS application. The app features a
+            chat-style interface with state management and user flow,
+            integrating AI-generated responses through API calls. I implemented
+            structured prompt engineering, typing animations, and form
+            validation to create a smooth and natural user experience, focusing
+            on responsive design, dynamic content rendering, and user input
+            handling throughout.
+          </p>
+        </div>
+
+        <!-- The Result -->
+        <div class="project-block">
+          <h2>The Result<span class="blue-full-stops">.</span></h2>
+          <p>
+            A polished, user-focused mini SaaS web application that allows users
+            to generate professional CVs and cover letters in minutes. This
+            project strengthened my ability to manage frontend logic, debug UI
+            behaviour, and build real-world applications from scratch. Please
+            note the application is optimised for desktop only.
+          </p>
+        </div>
+
+        <!-- Buttons -->
+        <div class="project-btns">
+          <a
+            href="https://mandi-lekalakala.github.io/jobify-chatbox-generator/"
+            target="_blank"
+            class="view-live-btn"
+          >
+            <i data-lucide="external-link"></i> View Live Project
+          </a>
+          <a href="../index.html#projects" class="all-projects-btn">
+            <i data-lucide="arrow-left"></i> All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2026 Mandi Lekalakala. All rights reserved.</p>
+        <div class="footer-icons">
+          <a href="mailto:mandilekalakala@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/mandilekalakala" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Mandi-Lekalakala" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="../src/script.js"></script>
+  </body>
 </html>
