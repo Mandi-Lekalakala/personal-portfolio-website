@@ -73,6 +73,7 @@ ul {
 
 .header-section.scrolled {
   background: #f0f0f0;
+  color: #737383;
   padding: 14px 0;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
