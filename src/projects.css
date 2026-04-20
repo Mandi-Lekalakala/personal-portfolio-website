@@ -1,0 +1,161 @@
+/* HERO */
+
+.project-hero {
+  min-height: 400px;
+  background: linear-gradient(to right, #131314, #16242b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 40px 60px;
+  text-align: center;
+}
+
+.project-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #9ca3af;
+  transition: color 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.back-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+.project-title {
+  font-size: 55px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+.project-subtitle {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2a8fc4;
+}
+
+/* CONTENT SECTION */
+
+.project-content-section {
+  background: #ffffff;
+  padding: 80px 40px;
+}
+
+.project-content {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-tags span {
+  font-size: 14px;
+  color: #2a6f8f;
+  background: #daeef7;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.project-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-block h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111111;
+}
+
+.project-block p {
+  font-size: 16px;
+  color: #555555;
+  line-height: 28px;
+}
+
+/* BUTTONS */
+
+.project-btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.view-live-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #2a8fc4;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 8px;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.view-live-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.view-live-btn:hover {
+  background: #145f87;
+  transform: translateY(-5px);
+}
+
+.all-projects-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #111111;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  transition:
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.all-projects-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.all-projects-btn:hover {
+  color: #2a8fc4;
+}
