@@ -123,4 +123,14 @@ if (hamburger) {
     }
     lucide.createIcons();
   });
+
+  const navLinks = document.querySelectorAll(".nav-links a");
+  navLinks.forEach(function (link) {
+    link.addEventListener("click", function () {
+      hamburger.classList.remove("open");
+      navSite.classList.remove("open");
+      hamburger.innerHTML = '<i data-lucide="menu"></i>';
+      lucide.createIcons();
+    });
+  });
 }
