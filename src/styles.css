@@ -676,22 +676,6 @@ Mobile Responsiveness
     padding: 40px;
   }
 
-  .hamburger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 1001;
-    color: #9ca3af;
-  }
-
-  .hamburger svg {
-    height: 28px;
-    width: 28px;
-  }
-
   .nav-site.open {
     display: flex;
   }
@@ -708,5 +692,33 @@ Mobile Responsiveness
 
   .nav-links a:hover {
     color: #2a8fc4;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    color: #9ca3af;
+  }
+
+  .hamburger svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  .hamburger.open {
+    color: #111;
+  }
+
+  .header-section.scrolled .hamburger {
+    color: #111;
+  }
+
+  .header-content {
+    padding: 0 24px;
   }
 }
