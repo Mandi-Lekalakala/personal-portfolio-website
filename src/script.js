@@ -116,5 +116,11 @@ if (hamburger) {
   hamburger.addEventListener("click", function () {
     hamburger.classList.toggle("open");
     navSite.classList.toggle("open");
+    if (navSite.classList.contains("open")) {
+      hamburger.innerHTML = '<i data-lucide="x"></i>';
+    } else {
+      hamburger.innerHTML = '<i data-lucide="menu"></i>';
+    }
+    lucide.createIcons();
   });
 }
