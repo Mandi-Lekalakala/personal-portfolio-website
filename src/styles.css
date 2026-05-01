@@ -664,5 +664,6 @@ Mobile Responsiveness
 @media (max-width: 768px) {
   .nav-site {
     display: none;
+    position: fixed;
   }
 }
