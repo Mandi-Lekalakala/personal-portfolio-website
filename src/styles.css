@@ -673,5 +673,17 @@ Mobile Responsiveness
     z-index: 999;
     flex-direction: column;
     justify-content: center;
+    padding: 40px;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    color: #fff;
   }
 }
