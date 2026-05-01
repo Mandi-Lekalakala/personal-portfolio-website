@@ -686,4 +686,9 @@ Mobile Responsiveness
     z-index: 1001;
     color: #fff;
   }
+
+  .hamburger svg {
+    height: 28px;
+    width: 28px;
+  }
 }
