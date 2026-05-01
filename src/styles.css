@@ -691,4 +691,22 @@ Mobile Responsiveness
     height: 28px;
     width: 28px;
   }
+
+  .nav-site.open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .nav-links a {
+    font-size: 22px;
+    color: #111;
+  }
+
+  .nav-links a:hover {
+    color: #2a8fc4;
+  }
 }
