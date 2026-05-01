@@ -104,3 +104,17 @@ if (sendBtn) {
       });
   });
 }
+
+// =================
+// Hamburger Menu
+// =================
+
+const hamburger = document.getElementById("hamburger");
+const navSite = document.querySelector(".nav-site");
+
+if (hamburger) {
+  hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("open");
+    navSite.classList.toggle("open");
+  });
+}
