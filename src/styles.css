@@ -110,6 +110,10 @@ ul {
   color: #2a8fc4;
 }
 
+.hamburger {
+  display: none;
+}
+
 /* ====================
 HERO SECTION 
 ================== */
@@ -651,4 +655,14 @@ FOOTER
 
 .footer-icons i:hover {
   color: #2a8fc4;
+}
+
+/* ======================
+Mobile Responsiveness
+========================= */
+
+@media (max-width: 768px) {
+  .nav-site {
+    display: none;
+  }
 }
