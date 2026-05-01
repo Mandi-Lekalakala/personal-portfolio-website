@@ -702,7 +702,7 @@ Mobile Responsiveness
     border: none;
     cursor: pointer;
     z-index: 1001;
-    color: #9ca3af;
+    color: #fff;
   }
 
   .hamburger svg {
