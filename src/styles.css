@@ -91,7 +91,7 @@ ul {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #111111;
+  color: #111;
   transition: color 0.4s ease;
 }
 
@@ -684,7 +684,7 @@ Mobile Responsiveness
     border: none;
     cursor: pointer;
     z-index: 1001;
-    color: #fff;
+    color: #9ca3af;
   }
 
   .hamburger svg {
