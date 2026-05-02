@@ -356,7 +356,7 @@ PROJECTS SECTION
 
 .project-card-img img {
   width: 100%;
-  height: 230px;
+  height: 200px;
   display: block;
 }
 
@@ -804,7 +804,7 @@ Mobile Responsiveness
   }
 
   .project-card-info {
-    padding: 20px;
+    padding: 18px;
   }
 
   .project-tags span {
