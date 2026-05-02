@@ -797,4 +797,20 @@ Mobile Responsiveness
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
+  /* ===================
+     SKILLS SECTION
+   =================== */
+
+  .skills-section {
+    padding: 60px 0;
+  }
+
+  .skills-content {
+    padding: 0 24px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
