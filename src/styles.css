@@ -740,11 +740,16 @@ Mobile Responsiveness
   }
 
   .hero-tagline {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .hero-info {
     font-size: 15px;
+  }
+
+  .welcome-btn {
+    padding: 10px 24px;
+    font-size: 14px;
   }
 
   /* ===================
