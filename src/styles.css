@@ -803,9 +803,27 @@ Mobile Responsiveness
     grid-template-columns: 1fr;
   }
 
+  .project-card-info {
+    padding: 20px;
+  }
+
+  .project-tags span {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
   /* ===================
      SKILLS SECTION
    =================== */
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .skills-tags span {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
 
   .skills-section {
     padding: 60px 0;
