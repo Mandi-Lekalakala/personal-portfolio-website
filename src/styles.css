@@ -662,6 +662,10 @@ Mobile Responsiveness
 ========================= */
 
 @media (max-width: 768px) {
+  /* ==========================
+     HEADER & HAMBURGER MENU
+     ========================= */
+
   .nav-site {
     display: none;
     position: absolute;
@@ -720,5 +724,18 @@ Mobile Responsiveness
 
   .header-content {
     padding: 0 24px;
+  }
+
+  /* ================
+     HERO SECTION
+     ================ */
+
+  .hero-section {
+    padding: 0 24px;
+  }
+
+  .hero-name {
+    font-size: 52px;
+    line-height: 58px;
   }
 }
