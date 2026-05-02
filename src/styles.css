@@ -835,4 +835,28 @@ Mobile Responsiveness
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
+  .send-btn {
+    padding: 15px 24px;
+    font-size: 14px;
+  }
+
+  /* ===================
+     FOOTER SECTION
+   =================== */
+
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  /* ===================
+     SECTION HEADINGS
+   =================== */
+
+  .section-headings {
+    font-size: 28px;
+  }
 }
