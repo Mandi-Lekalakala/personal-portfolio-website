@@ -735,12 +735,12 @@ Mobile Responsiveness
   }
 
   .hero-name {
-    font-size: 52px;
+    font-size: 45px;
     line-height: 58px;
   }
 
   .hero-tagline {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .hero-info {
@@ -774,6 +774,22 @@ Mobile Responsiveness
     height: 220px;
   }
   .glass-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===================
+     PROJECT SECTION
+     =================== */
+
+  .projects-section {
+    padding: 60px 0;
+  }
+
+  .projects-content {
+    padding: 0 24px;
+  }
+
+  .projects-grid {
     grid-template-columns: 1fr;
   }
 }
