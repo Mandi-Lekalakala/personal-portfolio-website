@@ -738,4 +738,12 @@ Mobile Responsiveness
     font-size: 52px;
     line-height: 58px;
   }
+
+  .hero-tagline {
+    font-size: 11px;
+  }
+
+  .hero-info {
+    font-size: 15px;
+  }
 }
