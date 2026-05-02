@@ -746,4 +746,34 @@ Mobile Responsiveness
   .hero-info {
     font-size: 15px;
   }
+
+  /* ===================
+     ABOUT SECTION
+     =================== */
+
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .about-content {
+    padding: 0 24px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img img {
+    width: 200px;
+    height: 220px;
+  }
+  .glass-card-grid {
+    grid-template-columns: 1fr;
+  }
 }
