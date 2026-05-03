@@ -213,7 +213,7 @@
 
 @media (max-width: 768px) {
   .project-hero {
-    padding: 100px 24px 40px;
+    padding: 150px 24px 40px;
     text-align: left;
     align-items: flex-start;
     justify-content: flex-start;
@@ -225,5 +225,14 @@
 
   .project-title {
     font-size: 48px;
+  }
+
+  .project-content-section {
+    padding: 40px 0;
+  }
+
+  .project-content {
+    padding: 0 24px;
+    gap: 32px;
   }
 }
