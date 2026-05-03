@@ -160,9 +160,9 @@
   color: #2a8fc4;
 }
 
-/* ============================================
+/* =====================
    HERO ANIMATIONS
-   ============================================ */
+   ===================== */
 
 @keyframes fadeInUp {
   from {
@@ -194,9 +194,9 @@
   animation-delay: 0.4s;
 }
 
-/* ============================================
+/* ========================
    INTERSECTION OBSERVER
-   ============================================ */
+   ======================== */
 
 .fade-up {
   opacity: 0;
@@ -209,4 +209,16 @@
 .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .project-hero {
+    padding: 100px 24px 40px;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .project-hero-content {
+    align-items: flex-start;
+  }
 }
