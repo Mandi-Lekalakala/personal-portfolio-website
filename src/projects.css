@@ -213,18 +213,20 @@
 
 @media (max-width: 768px) {
   .project-hero {
-    padding: 150px 24px 40px;
-    text-align: left;
-    align-items: flex-start;
+    min-height: 350px;
+    padding: 80px 24px 40px;
+    align-items: flex-end;
     justify-content: flex-start;
+    text-align: left;
   }
 
   .project-hero-content {
     align-items: flex-start;
+    gap: 8px;
   }
 
   .project-title {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .project-content-section {
