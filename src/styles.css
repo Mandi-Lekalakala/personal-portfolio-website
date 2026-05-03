@@ -803,6 +803,10 @@ Mobile Responsiveness
     grid-template-columns: 1fr;
   }
 
+  .project-card-img img {
+    height: 200px;
+  }
+
   .project-card-info {
     padding: 18px;
   }
