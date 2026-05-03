@@ -87,7 +87,7 @@ if (sendBtn) {
 
         setTimeout(function () {
           sendBtn.disabled = false;
-          sendBtn.innerHTML = "Send Message";
+          sendBtn.innerHTML = '<i data-lucide="send"></i>Send Message';
           lucide.createIcons();
         }, 3000);
       })
@@ -98,7 +98,7 @@ if (sendBtn) {
 
         setTimeout(function () {
           sendBtn.disabled = false;
-          sendBtn.innerHTML = "Send Message";
+          sendBtn.innerHTML = '<i data-lucide="send"></i>Send Message';
           lucide.createIcons();
         }, 3000);
       });
