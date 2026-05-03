@@ -216,9 +216,14 @@
     padding: 100px 24px 40px;
     text-align: left;
     align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .project-hero-content {
     align-items: flex-start;
+  }
+
+  .project-title {
+    font-size: 48px;
   }
 }
