@@ -224,6 +224,10 @@ body {
   transform: translateY(0);
 }
 
+/* ==================
+MOBILE RESPONSIVENESS
+===================== */
+
 @media (max-width: 768px) {
   .project-hero {
     min-height: 350px;
@@ -248,11 +252,11 @@ body {
   }
 
   .project-content-section {
-    padding: 60px 0;
+    padding: 80px 0;
   }
 
   .project-content {
-    padding: 0 30px;
+    padding: 0 20px;
     gap: 40px;
   }
 
