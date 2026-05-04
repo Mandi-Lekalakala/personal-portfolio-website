@@ -1,5 +1,17 @@
 /* HERO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
 .project-hero {
   min-height: 400px;
   background: linear-gradient(to right, #131314, #16242b);
@@ -40,10 +52,10 @@
 }
 
 .project-title {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 55px;
-  font-weight: 900;
   color: #ffffff;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   line-height: 1.1;
 }
 
@@ -91,6 +103,7 @@
 }
 
 .project-block h2 {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 26px;
   font-weight: 800;
   color: #111111;
@@ -235,11 +248,11 @@
   }
 
   .project-content-section {
-    padding: 40px 0;
+    padding: 60px 0;
   }
 
   .project-content {
-    padding: 0 20px;
+    padding: 0 30px;
     gap: 40px;
   }
 
