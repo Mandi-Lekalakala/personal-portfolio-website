@@ -235,12 +235,12 @@
   }
 
   .project-content-section {
-    padding: 32px 0;
+    padding: 40px 0;
   }
 
   .project-content {
     padding: 0 20px;
-    gap: 28px;
+    gap: 40px;
   }
 
   .project-block h2 {
@@ -249,7 +249,7 @@
 
   .project-block p {
     font-size: 15px;
-    line-height: 26px;
+    line-height: 28px;
   }
 
   .project-tags span {
@@ -261,11 +261,12 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    width: 100%;
   }
 
   .view-live-btn,
   .all-projects-btn {
-    width: 100%;
+    width: auto;
     justify-content: center;
   }
 }
