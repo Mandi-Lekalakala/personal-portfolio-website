@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
 });
 
 // ============================================
-//   INTERSECTION OBSERVER — FADE IN CONTENT
+//   INTERSECTION OBSERVER
 // ============================================
 
 const observer = new IntersectionObserver(
