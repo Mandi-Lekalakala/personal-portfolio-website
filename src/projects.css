@@ -110,7 +110,7 @@ body {
 }
 
 .project-block p {
-  font-size: 18px;
+  font-size: 16px;
   color: #555555;
   line-height: 28px;
 }
@@ -252,7 +252,7 @@ MOBILE RESPONSIVENESS
   }
 
   .project-content-section {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 
   .project-content {
