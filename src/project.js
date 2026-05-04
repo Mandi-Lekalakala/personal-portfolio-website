@@ -12,6 +12,19 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// ======================================
+// 2. FOOTER
+// ======================================
+
+const footerText = document.querySelector(".footer-content p");
+
+const currentYear = new Date().getFullYear();
+
+if (footerText) {
+  footerText.textContent =
+    "© " + currentYear + " Mandi Lekalakala. All rights reserved.";
+}
+
 // ============================================
 //   INTERSECTION OBSERVER
 // ============================================
