@@ -110,7 +110,7 @@ body {
 }
 
 .project-block p {
-  font-size: 16px;
+  font-size: 18px;
   color: #555555;
   line-height: 28px;
 }
@@ -252,12 +252,17 @@ MOBILE RESPONSIVENESS
   }
 
   .project-content-section {
-    padding: 80px 0;
+    padding: 100px 0;
   }
 
   .project-content {
-    padding: 0 20px;
+    padding: 0 16px;
     gap: 40px;
+  }
+
+  .project-tags span {
+    font-size: 13px;
+    padding: 6px 10px;
   }
 
   .project-block h2 {
@@ -267,11 +272,6 @@ MOBILE RESPONSIVENESS
   .project-block p {
     font-size: 15px;
     line-height: 28px;
-  }
-
-  .project-tags span {
-    font-size: 13px;
-    padding: 6px 12px;
   }
 
   .project-btns {
